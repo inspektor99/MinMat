@@ -2,10 +2,11 @@
 define([
     'jquery',
     'underscore',
-    'backbone'
+    'backbone',
+    'app'
     //'views/games',
     //'views/users'
-    ], function($, _, Backbone){
+    ], function($, _, Backbone, App){
         var AppRouter = Backbone.Router.extend({
             routes: {
 
@@ -14,7 +15,7 @@ define([
 
         var initialize = function(){
             
-            console.log('router not yet configured' + AppRouter);
+            console.log('router not yet configured');
             return;
         };
         return {
